@@ -18,6 +18,7 @@ const FetchData = () => {
             }
         };
         getUsers();
+        // Runs only when the values in the array change
     }, []); // Empty dependency array ensures this runs only once on mount
     return (
         <section>
