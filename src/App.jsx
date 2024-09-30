@@ -1,9 +1,9 @@
-import UseEffectBasics from "./tutorial/02-useEffect/starter/02-useEffect-basics";
+import FetchData from "./tutorial/02-useEffect/starter/04-fetch-data";
 
 function App() {
     return (
         <div className="container">
-            <UseEffectBasics></UseEffectBasics>
+            <FetchData></FetchData>
         </div>
     );
 }
