@@ -1,5 +1,5 @@
 const CleanupFunction = () => {
-  return <h2>cleanup function</h2>;
+    return <h2>cleanup function</h2>;
 };
 
 export default CleanupFunction;
