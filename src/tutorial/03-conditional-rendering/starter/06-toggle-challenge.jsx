@@ -18,7 +18,17 @@ const ToggleChallenge = () => {
             <button type="button" className="btn" onClick={handlesClick}>
                 {isAlert ? "CLOSE ALERT" : "OPEN ALERT"}
             </button>
-            {isAlert && <Alert />}
+            <section>
+                <button
+                    className="btn"
+                    onClick={() => {
+                        setIsAlert(!isAlert);
+                    }}
+                >
+                    {isAlert ? "CLOSE ALERT" : "OPEN ALERT"}
+                </button>
+                {isAlert && <Alert />}
+            </section>
         </div>
     );
 };
